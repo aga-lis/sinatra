@@ -19,5 +19,6 @@ end
  get '/named-cat' do
    p params
    @name = params[:name]
+   @last_name = params[:last_name]
    erb(:index)
   end
