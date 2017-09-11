@@ -9,9 +9,10 @@ get '/secret' do
 end
 
 get '/luan' do
-  'is king'
+  'is no longer king'
 end
 
 get '/cat' do
+  @name = ["Amigo", "Oscar", "Viking"].sample
   erb(:index)
 end
